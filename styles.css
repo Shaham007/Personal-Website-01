@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.header{
+    height: 100vh;
+    width: 100%;
+    padding: 0 8%;
+    background: black;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* background vid */
+
+
+.video{
+    z-index: -1;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100vh;
+    opacity: 70%;
+}
+
+
+
+/* navbar */
+
+
+
+.navbar-nav{
+    margin-left: auto;
+    position: relative;
+    right: 90px;
+    position: fixed;
+}
+
+.logo{
+    width: 100px;
+    position: relative;
+    left: 100px;
+}
+
+.nav-links{
+padding: 28px 0;
+}
+
+.nav-links li{
+    display:inline-block;
+    margin: 0 15px;
+}
+
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0px;
+    position: relative;
+}
+
+.nav-links li a::after{
+    content: '';
+    background: #51d3ed;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: width 0.3s;
+}
+
+.nav-links li a:hover::after{
+    width: 100%;
+}
+
+
+/* navbar button */
+
+
+.btn{
+    background: #51d3ed;
+    color: white;
+    position: relative;
+    bottom: 8px;
+    border-radius: 35px;
+    cursor: pointer;
+
+}
+
+.content{
+    color:#51d3ed;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+.content h1{
+    
+    font-size: 40px;
+    position: relative;
+    top: 250px;
+    left: 120px;
+}
+
+.content p{
+    font-size: 20px;
+    position: relative;
+    top: 250px;
+    left: 120px;
+}
+
+.span1{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pic-section{
+    width: 500px;
+    height: 80px;
+    display: flex;
+    position: relative;
+    left: 900px;
+    bottom: 70px;
+    cursor: pointer; 
+}
+
+#pic-3{
+    width: 130px;
+    height: 130px;
+    top: 5px;
+}
+
+#pic-1{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 10px;
+}
+
+.pic-section .pic{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    margin: 5px 10px;
+    transition: transform 0.5s;
+}
+
+
+
+.pic:hover{
+    transform: translateY(-30px)
+}
+
+
+/* skills */
+
+
+#skill-section{
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+    padding-bottom: 80px;
+}
+
+
+.skill-chart{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 150px;
+    left: 590px;
+    z-index: 2;
+}
+
+#chart{
+    width: 300px;
+    height: 300px;
+}
+
+.heading2{
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    position: relative;
+    left: 700px;
+    color: #51d3ed;
+    padding-top: 90px;
+}
+
+.heading2 h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* about me */
+
+
+#about{
+    height: 850px;
+    width: 100%;
+    background-color: black;
+}
+
+.about h1{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    bottom: 600px;
+    left: 680px;
+    color: #51d3ed;
+    z-index: 3;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about h3{
+   height: 300px;
+   width: 60%;
+   font-size: 20px;
+   z-index: 3;
+   position: relative;
+   bottom: 500px;
+   left: 350px;
+   text-align: center;
+   color: #58636e;
+
+}
+
+.video2{
+    z-index: 2;
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    opacity: 80%;
+}
+
+
+/* contact me */
+
+
+#contact{
+    height: 850px;
+    width: 100%;
+    background-color: black;
+}
+
+
+#c-h1{
+    color: #51d3ed;
+
+}
+
+
+
+
