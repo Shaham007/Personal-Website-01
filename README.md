@@ -1,2 +1,2 @@
 # web-01
-Web 01 Project 2021
+This project is a fully Responsive design
