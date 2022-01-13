@@ -6,7 +6,7 @@ var Chart = new Chart(ctx, {
         labels: ['HTML', 'CSS', 'JavaScript', 'React.js'],
         datasets: [{
             label: '# of Votes',
-            data: [15, 15, 8, 5],
+            data: [15, 15, 12, 8],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -26,4 +26,3 @@ var Chart = new Chart(ctx, {
         responsive: true,
     }
 });
- 
